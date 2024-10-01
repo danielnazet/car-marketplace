@@ -1,0 +1,166 @@
+{
+    "carDetails": [
+        {
+            "label": "Auction Title",
+            "name": "auctionTitle",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaClipboardList"
+        },
+        {
+            "label": "Price PLN",
+            "name": "sellingPrice",
+            "fieldType": "number",
+            "required":true,
+            "column": 1,
+            "icon": "FaMoneyBillAlt"
+        },
+        {
+            "label": "Body Type",
+            "name": "bodyType",
+            "fieldType": "dropdown",
+            "options":["Sedan","Hatchback","SUV","Combi","Coupe","Cabrio","Minivan","Pick-up","Electric" ],
+            "required":true,
+            "column": 1,
+            "icon": "FaCar"
+        },
+        {
+            "label": "Color",
+            "name": "color",
+            "fieldType": "dropdown",
+            "required":true,
+            "options":["Black", "White", "Silver", "Gray", "Blue", "Red", "Green", "Yellow", "Orange", "Brown"],
+            "column": 1,
+            "icon": "FaRoad"
+        },
+        {
+            "label": "Year",
+            "name": "year",
+            "fieldType": "number",
+            "required":true,
+            "column": 1,
+            "icon": "FaCalendarAlt"
+        },
+        {
+            "label": "Transmission",
+            "name": "transmission",
+            "fieldType": "dropdown",
+            "options":["Automatic","Manual"],
+            "required":true,
+            "column": 1,
+            "icon": "FaMoneyBillAlt"
+        },
+        {
+            "label": "Damaged",
+            "name": "condition",
+            "fieldType": "dropdown",
+            "options":["Yes","No"],
+            "required":true,
+            "column": 1,
+            "icon": "FaMoneyBillAlt"
+        },
+        {
+            "label": "Fuel Type",
+            "name": "fuelType",
+            "fieldType": "dropdown",
+            "options":["Diesel","Electric","Gasoline","Hybrid"],
+            "required":true,
+            "column": 1,
+            "icon": "FaMoneyBillAlt"
+        },
+        {
+            "label": "Make",
+            "name": "make",
+            "fieldType": "dropdown",
+            "required":true,
+            "options": [
+                "Acura" ,
+                "Alfa Romeo" ,
+                "Aston Martin", 
+                "Audi" ,
+                "Bentley", 
+                "BMW" ,
+                "Bugatti", 
+                "Buick" ,
+                "Cadillac", 
+                "Chevrolet", 
+                "Chrysler" ,
+                "Citroën" ,
+                "Dodge" ,
+                "Ferrari", 
+                "Fiat" ,
+                "Ford" ,
+                "GMC" ,
+                "Honda", 
+                "Hyundai", 
+                "Infiniti", 
+                "Jaguar" ,
+                "Jeep" ,
+                "Kia" ,
+                "Koenigsegg", 
+                "Lamborghini", 
+                "Land Rover" ,
+                "Lexus" ,
+                "Lincoln" ,
+                "Maserati" ,
+                "Mazda" ,
+                "McLaren", 
+                "Mercedes-Benz", 
+                "Mini" ,
+                "Mitsubishi", 
+                "Nissan" ,
+                "Pagani" ,
+                "Peugeot" ,
+                "Porsche" ,
+                "Ram" ,
+                "Renault", 
+                "Rolls-Royce", 
+                "Seat" ,
+                "Skoda" ,
+                "Smart" ,
+                "Subaru" ,
+                "Suzuki" ,
+                "Tesla" ,
+                "Toyota" ,
+                "Volkswagen", 
+                "Volvo"
+               
+            ],
+            "column": 1,
+            "icon": "FaIndustry"
+        },
+        {
+            "label": "Model",
+            "name": "model",
+            "fieldType": "text",
+            "required":true,
+            "column": 1,
+            "icon": "FaMCalendarAlt"
+        },
+        {
+            "label": "Drive Line Type",
+            "name": "driveType",
+            "fieldType": "dropdown",
+            "required":true,
+            "options":["FWD","RWD", "AWD", "4WD"],
+            "column": 1,
+            "icon": "FaRoad"
+        },
+        {
+            "label": "Engine cm3",
+            "name": "engineSize",
+            "fieldType": "text",
+            "required":true,
+            "column": 1,
+            "icon": "FaMWrench"
+        },
+        {
+            "label": "Discriptions",
+            "name": "auctionDiscription",
+            "fieldType": "textarea",
+            "required":true,
+            "column": 1
+        }
+    ]
+}
